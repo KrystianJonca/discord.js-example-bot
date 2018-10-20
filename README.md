@@ -13,6 +13,9 @@ If you don't have git or node, you can install they here [Git](https://git-scm.c
     # Run the app
     npm start
 
+## 📄 Discord.js Documentation
+[Docs](https://discord.js.org/#/)
+
 ## 📁 bot.js
 ```javascript
 // Import require modules
