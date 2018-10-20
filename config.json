@@ -1,5 +1,5 @@
 {
-    "prefix": "!",
-    "username": "Example Discord.js Bot",
-    "token": "YOUR SUPER SECRET TOKEN"
+  "prefix": "!",
+  "username": "Example Discord.js Bot",
+  "token": "YOUR SUPER SECRET TOKEN"
 }
