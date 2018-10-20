@@ -1,7 +1,7 @@
 # 🤖 Discord.js example bot
 Example Discord Bot written in Discord.js 
 
-## :computer: Use
+## :computer: Usage
 If you don't have git or node, you can install they here [Git](https://git-scm.com/downloads "Git") [Node.js](https://nodejs.org/en/download/ "Node.js") 
 
     # Clone this repository
