@@ -82,7 +82,7 @@ bot.on('message', async message => {
 
       await message.channel.send({ files: [
         {
-          attachment: message.author.displayAvatarURL,
+          attachment: sender.displayAvatarURL,
           name: 'avatar.png'
         }
       ] }) // Send message with user avatar file
@@ -94,7 +94,7 @@ bot.on('message', async message => {
       message.reply(`You rolled a ${roll}`) // Send message with rolled number
       break
     case 'userinfo':
-      let target = message.mentions.users.first() || message.guild.members.get(args[0]) || message.author // Get user target(user mention or if it doesn't exist message author)
+      let target = message.mentions.users.first() || message.guild.members.get(args[0]) || sender // Get user target(user mention or if it doesn't exist message author)
 
       let embed = new Discord.RichEmbed()
         .setAuthor(target.username)
@@ -132,7 +132,6 @@ bot.on('reconnecting', () => {
 
 // Log our bot in
 bot.login(config.token)
-
 
 ```
 
